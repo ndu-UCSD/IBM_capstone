@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_04654df612a5495b8b363a8327dbd5c9 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_04654df612a5495b8b363a8327dbd5c9" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_04654df612a5495b8b363a8327dbd5c9 = L.map(
+                                  'map_04654df612a5495b8b363a8327dbd5c9',
+                                  {center: [40.78173157894736,-73.96718421052633],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_ec09752114794dbbb0489050b9ee95ed = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+        
+    
+            var circle_marker_ee3f656bc83044e28b4d641b79f4f8a7 = L.circleMarker(
+                [40.726,-73.998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_ce7d9c85fe2d426d816618be96ca8798 = L.popup({maxWidth: '300'});
+
+            
+                var html_93e379c8bddb4f0298c96a72a4d799c4 = $('<div id="html_93e379c8bddb4f0298c96a72a4d799c4" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_ce7d9c85fe2d426d816618be96ca8798.setContent(html_93e379c8bddb4f0298c96a72a4d799c4);
+            
+
+            circle_marker_ee3f656bc83044e28b4d641b79f4f8a7.bindPopup(popup_ce7d9c85fe2d426d816618be96ca8798);
+
+            
+        
+    
+            var circle_marker_7f326cf5a7684e13b611b1fcf72617f2 = L.circleMarker(
+                [40.72,-74.01],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_5cd794a8bc8d4516aef97fd678d9cf76 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d1e849ce9f046c48184ad89c77cfe3a = $('<div id="html_9d1e849ce9f046c48184ad89c77cfe3a" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_5cd794a8bc8d4516aef97fd678d9cf76.setContent(html_9d1e849ce9f046c48184ad89c77cfe3a);
+            
+
+            circle_marker_7f326cf5a7684e13b611b1fcf72617f2.bindPopup(popup_5cd794a8bc8d4516aef97fd678d9cf76);
+
+            
+        
+    
+            var circle_marker_9b83e0aedc5140e1be292bb8b1029c09 = L.circleMarker(
+                [40.74,-74.01],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_fa50dc2bb2fd4846a11932a6a64ad7ad = L.popup({maxWidth: '300'});
+
+            
+                var html_81da36c02ab44092997b9ad074c88134 = $('<div id="html_81da36c02ab44092997b9ad074c88134" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_fa50dc2bb2fd4846a11932a6a64ad7ad.setContent(html_81da36c02ab44092997b9ad074c88134);
+            
+
+            circle_marker_9b83e0aedc5140e1be292bb8b1029c09.bindPopup(popup_fa50dc2bb2fd4846a11932a6a64ad7ad);
+
+            
+        
+    
+            var circle_marker_a48f4dd94cbb4821b46e13c25171b595 = L.circleMarker(
+                [40.74,-73.97],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_d93fde9f5c8246169b30c94c7ce6a2de = L.popup({maxWidth: '300'});
+
+            
+                var html_7b8f5b9d9d634bbca497cb1a429781fb = $('<div id="html_7b8f5b9d9d634bbca497cb1a429781fb" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_d93fde9f5c8246169b30c94c7ce6a2de.setContent(html_7b8f5b9d9d634bbca497cb1a429781fb);
+            
+
+            circle_marker_a48f4dd94cbb4821b46e13c25171b595.bindPopup(popup_d93fde9f5c8246169b30c94c7ce6a2de);
+
+            
+        
+    
+            var circle_marker_93acb3eaa8944b709ba549d53b9cb730 = L.circleMarker(
+                [40.75,-73.973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_b0b71303059c4c328269a91965186c49 = L.popup({maxWidth: '300'});
+
+            
+                var html_196e90cee14d4ac890908026c71e749c = $('<div id="html_196e90cee14d4ac890908026c71e749c" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_b0b71303059c4c328269a91965186c49.setContent(html_196e90cee14d4ac890908026c71e749c);
+            
+
+            circle_marker_93acb3eaa8944b709ba549d53b9cb730.bindPopup(popup_b0b71303059c4c328269a91965186c49);
+
+            
+        
+    
+            var circle_marker_b01c6c4b0e924ac1bcfdf86f095acb04 = L.circleMarker(
+                [40.76,-73.99],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_222bea8cdf7c4c39bf6460224194626d = L.popup({maxWidth: '300'});
+
+            
+                var html_af79173bf6c9413abcc7ee592e81566e = $('<div id="html_af79173bf6c9413abcc7ee592e81566e" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_222bea8cdf7c4c39bf6460224194626d.setContent(html_af79173bf6c9413abcc7ee592e81566e);
+            
+
+            circle_marker_b01c6c4b0e924ac1bcfdf86f095acb04.bindPopup(popup_222bea8cdf7c4c39bf6460224194626d);
+
+            
+        
+    
+            var circle_marker_11d108faa35d436d8f84b925c258fe19 = L.circleMarker(
+                [40.77,-73.99],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_13a460c78c5a43a286d9bc2f673b3614 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e5c1fc901e34c9686aee9f8243e9ca5 = $('<div id="html_1e5c1fc901e34c9686aee9f8243e9ca5" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_13a460c78c5a43a286d9bc2f673b3614.setContent(html_1e5c1fc901e34c9686aee9f8243e9ca5);
+            
+
+            circle_marker_11d108faa35d436d8f84b925c258fe19.bindPopup(popup_13a460c78c5a43a286d9bc2f673b3614);
+
+            
+        
+    
+            var circle_marker_c3758961230e4569903c5c6d81bf17ff = L.circleMarker(
+                [40.759,-73.981],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_0b8aff0c3c154e52b26e1fed790ae37c = L.popup({maxWidth: '300'});
+
+            
+                var html_ab2c2d5b173c4a16b0f0e4fb6bd370ad = $('<div id="html_ab2c2d5b173c4a16b0f0e4fb6bd370ad" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_0b8aff0c3c154e52b26e1fed790ae37c.setContent(html_ab2c2d5b173c4a16b0f0e4fb6bd370ad);
+            
+
+            circle_marker_c3758961230e4569903c5c6d81bf17ff.bindPopup(popup_0b8aff0c3c154e52b26e1fed790ae37c);
+
+            
+        
+    
+            var circle_marker_da621386aefe4dd88b2e2271b958fe16 = L.circleMarker(
+                [40.77,-73.96],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_7841c959137d4152a3bc7bde66106f3c = L.popup({maxWidth: '300'});
+
+            
+                var html_561d3fd8445c48f995ea1efefb8fd5f6 = $('<div id="html_561d3fd8445c48f995ea1efefb8fd5f6" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_7841c959137d4152a3bc7bde66106f3c.setContent(html_561d3fd8445c48f995ea1efefb8fd5f6);
+            
+
+            circle_marker_da621386aefe4dd88b2e2271b958fe16.bindPopup(popup_7841c959137d4152a3bc7bde66106f3c);
+
+            
+        
+    
+            var circle_marker_06edd77e7c72459e964aaf8809caf31a = L.circleMarker(
+                [40.76,-73.97],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_a3cf18b0595745819897525df74a74c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_eda1d473bb7d4f2db9327d8e060a24c2 = $('<div id="html_eda1d473bb7d4f2db9327d8e060a24c2" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_a3cf18b0595745819897525df74a74c9.setContent(html_eda1d473bb7d4f2db9327d8e060a24c2);
+            
+
+            circle_marker_06edd77e7c72459e964aaf8809caf31a.bindPopup(popup_a3cf18b0595745819897525df74a74c9);
+
+            
+        
+    
+            var circle_marker_b844a460a67448e08f72fd7f1af4af66 = L.circleMarker(
+                [40.78,-73.98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_d813985810654e0d9aaadf0818934c1c = L.popup({maxWidth: '300'});
+
+            
+                var html_42c13cde74084934a75a1e6b139fe13d = $('<div id="html_42c13cde74084934a75a1e6b139fe13d" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_d813985810654e0d9aaadf0818934c1c.setContent(html_42c13cde74084934a75a1e6b139fe13d);
+            
+
+            circle_marker_b844a460a67448e08f72fd7f1af4af66.bindPopup(popup_d813985810654e0d9aaadf0818934c1c);
+
+            
+        
+    
+            var circle_marker_81ba797d09e14e929e87da782c8ce34f = L.circleMarker(
+                [40.81,-73.97],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_b6895c2df4664317bcfa0dc4a8448f34 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0704eacef5141c1b8e04ce017b3f117 = $('<div id="html_c0704eacef5141c1b8e04ce017b3f117" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_b6895c2df4664317bcfa0dc4a8448f34.setContent(html_c0704eacef5141c1b8e04ce017b3f117);
+            
+
+            circle_marker_81ba797d09e14e929e87da782c8ce34f.bindPopup(popup_b6895c2df4664317bcfa0dc4a8448f34);
+
+            
+        
+    
+            var circle_marker_2d690f147c774a36a7dce734d554ad8f = L.circleMarker(
+                [40.8,-73.97],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_11ea16dc79544925a09760fd23615f18 = L.popup({maxWidth: '300'});
+
+            
+                var html_76bacae4796d408f8926ce2c0c3dd43b = $('<div id="html_76bacae4796d408f8926ce2c0c3dd43b" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_11ea16dc79544925a09760fd23615f18.setContent(html_76bacae4796d408f8926ce2c0c3dd43b);
+            
+
+            circle_marker_2d690f147c774a36a7dce734d554ad8f.bindPopup(popup_11ea16dc79544925a09760fd23615f18);
+
+            
+        
+    
+            var circle_marker_04aab7cf6a614bb1ba40c7928847dbf6 = L.circleMarker(
+                [40.801,-73.953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_61f1dceff66a4d2fa208a0fe509b6156 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1cfc21318484a16bcbf39bbca873bd8 = $('<div id="html_e1cfc21318484a16bcbf39bbca873bd8" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_61f1dceff66a4d2fa208a0fe509b6156.setContent(html_e1cfc21318484a16bcbf39bbca873bd8);
+            
+
+            circle_marker_04aab7cf6a614bb1ba40c7928847dbf6.bindPopup(popup_61f1dceff66a4d2fa208a0fe509b6156);
+
+            
+        
+    
+            var circle_marker_f4b5b1a24c224a2ca9422e3a9800b13a = L.circleMarker(
+                [40.81,-73.96],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_61e6c9b216984db8ae6d60803957830d = L.popup({maxWidth: '300'});
+
+            
+                var html_fd89870f9c594e59b7fc3403897596ed = $('<div id="html_fd89870f9c594e59b7fc3403897596ed" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_61e6c9b216984db8ae6d60803957830d.setContent(html_fd89870f9c594e59b7fc3403897596ed);
+            
+
+            circle_marker_f4b5b1a24c224a2ca9422e3a9800b13a.bindPopup(popup_61e6c9b216984db8ae6d60803957830d);
+
+            
+        
+    
+            var circle_marker_bf6a659b7c8a4e768460eb35ddc5516d = L.circleMarker(
+                [40.78,-73.95],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_4166a1c0c50242ea865e8504f22f07b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8dbeb6b35b8474abcbb2a9330a9344a = $('<div id="html_c8dbeb6b35b8474abcbb2a9330a9344a" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_4166a1c0c50242ea865e8504f22f07b9.setContent(html_c8dbeb6b35b8474abcbb2a9330a9344a);
+            
+
+            circle_marker_bf6a659b7c8a4e768460eb35ddc5516d.bindPopup(popup_4166a1c0c50242ea865e8504f22f07b9);
+
+            
+        
+    
+            var circle_marker_751953b5120545449fce87b245581f63 = L.circleMarker(
+                [40.79,-73.95],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_cb02d9edba2a4fae9adff0a4827472e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_4100c3e914cc4ed18d8794e7686e97ac = $('<div id="html_4100c3e914cc4ed18d8794e7686e97ac" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_cb02d9edba2a4fae9adff0a4827472e2.setContent(html_4100c3e914cc4ed18d8794e7686e97ac);
+            
+
+            circle_marker_751953b5120545449fce87b245581f63.bindPopup(popup_cb02d9edba2a4fae9adff0a4827472e2);
+
+            
+        
+    
+            var circle_marker_ec30d0b059f14cef9a099d700a0de9f6 = L.circleMarker(
+                [40.818,-73.943],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_e3d5860be9b2484084d96c51865835b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb25f1872dee42d0affe42dc63cacb5a = $('<div id="html_eb25f1872dee42d0affe42dc63cacb5a" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_e3d5860be9b2484084d96c51865835b9.setContent(html_eb25f1872dee42d0affe42dc63cacb5a);
+            
+
+            circle_marker_ec30d0b059f14cef9a099d700a0de9f6.bindPopup(popup_e3d5860be9b2484084d96c51865835b9);
+
+            
+        
+    
+            var circle_marker_8512405f777b4d30beb5a0fec2d30982 = L.circleMarker(
+                [40.83,-73.95],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_0cd77eda26e449fc91088d196588cd7e = L.popup({maxWidth: '300'});
+
+            
+                var html_8ee3bdf316894547b8d76a233274b643 = $('<div id="html_8ee3bdf316894547b8d76a233274b643" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_0cd77eda26e449fc91088d196588cd7e.setContent(html_8ee3bdf316894547b8d76a233274b643);
+            
+
+            circle_marker_8512405f777b4d30beb5a0fec2d30982.bindPopup(popup_0cd77eda26e449fc91088d196588cd7e);
+
+            
+        
+    
+            var circle_marker_fc9a85226e394a1982fc536d00e2b17d = L.circleMarker(
+                [40.84,-73.94],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_06d4d6f875b04b94b5700e3c48a4df54 = L.popup({maxWidth: '300'});
+
+            
+                var html_30cb4f904e4a4274bdaf99148907d63d = $('<div id="html_30cb4f904e4a4274bdaf99148907d63d" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_06d4d6f875b04b94b5700e3c48a4df54.setContent(html_30cb4f904e4a4274bdaf99148907d63d);
+            
+
+            circle_marker_fc9a85226e394a1982fc536d00e2b17d.bindPopup(popup_06d4d6f875b04b94b5700e3c48a4df54);
+
+            
+        
+    
+            var circle_marker_00a8cf3367a346e780757a7806c08bd9 = L.circleMarker(
+                [40.84,-73.94],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_41e39b868e5d432cba616d7d85549029 = L.popup({maxWidth: '300'});
+
+            
+                var html_cbd40cbfecb846cdbb83b861f68ddd68 = $('<div id="html_cbd40cbfecb846cdbb83b861f68ddd68" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_41e39b868e5d432cba616d7d85549029.setContent(html_cbd40cbfecb846cdbb83b861f68ddd68);
+            
+
+            circle_marker_00a8cf3367a346e780757a7806c08bd9.bindPopup(popup_41e39b868e5d432cba616d7d85549029);
+
+            
+        
+    
+            var circle_marker_acdbd39ed7d74122a247aa87e5463d35 = L.circleMarker(
+                [40.86,-73.93],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_20a2899b35a54fd9b2046bfe02285937 = L.popup({maxWidth: '300'});
+
+            
+                var html_170846f976bf4d9eaedce401521e186a = $('<div id="html_170846f976bf4d9eaedce401521e186a" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_20a2899b35a54fd9b2046bfe02285937.setContent(html_170846f976bf4d9eaedce401521e186a);
+            
+
+            circle_marker_acdbd39ed7d74122a247aa87e5463d35.bindPopup(popup_20a2899b35a54fd9b2046bfe02285937);
+
+            
+        
+    
+            var circle_marker_60d53c5c61c84c6eb54b4a5cfa0ca135 = L.circleMarker(
+                [40.8,-73.93],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_c2f3cca3b6fb4d0295eff2d28bbd1c11 = L.popup({maxWidth: '300'});
+
+            
+                var html_227d1bea1d3846c08b6d2c79d817b732 = $('<div id="html_227d1bea1d3846c08b6d2c79d817b732" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_c2f3cca3b6fb4d0295eff2d28bbd1c11.setContent(html_227d1bea1d3846c08b6d2c79d817b732);
+            
+
+            circle_marker_60d53c5c61c84c6eb54b4a5cfa0ca135.bindPopup(popup_c2f3cca3b6fb4d0295eff2d28bbd1c11);
+
+            
+        
+    
+            var circle_marker_26c7b5ca009946188c6b335e7651aa80 = L.circleMarker(
+                [40.76,-73.99],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_1ffb1897c380485aa1212467b1690461 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e2e185865de42ce80a3e7144594ab01 = $('<div id="html_3e2e185865de42ce80a3e7144594ab01" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_1ffb1897c380485aa1212467b1690461.setContent(html_3e2e185865de42ce80a3e7144594ab01);
+            
+
+            circle_marker_26c7b5ca009946188c6b335e7651aa80.bindPopup(popup_1ffb1897c380485aa1212467b1690461);
+
+            
+        
+    
+            var circle_marker_f72b7b517bc44d9780870ff8b2655d32 = L.circleMarker(
+                [40.814,-73.937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_4a15ef8856ce40b7a4fa8f9085e382fa = L.popup({maxWidth: '300'});
+
+            
+                var html_358bdee399f948868693cead08b14a68 = $('<div id="html_358bdee399f948868693cead08b14a68" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_4a15ef8856ce40b7a4fa8f9085e382fa.setContent(html_358bdee399f948868693cead08b14a68);
+            
+
+            circle_marker_f72b7b517bc44d9780870ff8b2655d32.bindPopup(popup_4a15ef8856ce40b7a4fa8f9085e382fa);
+
+            
+        
+    
+            var circle_marker_49a437d7869748efb0aec8fb5daa020c = L.circleMarker(
+                [40.71,-74.003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_a289572cd2d04140930117584319a882 = L.popup({maxWidth: '300'});
+
+            
+                var html_73e7abbe5fb148e9917dfdd6bff9694d = $('<div id="html_73e7abbe5fb148e9917dfdd6bff9694d" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_a289572cd2d04140930117584319a882.setContent(html_73e7abbe5fb148e9917dfdd6bff9694d);
+            
+
+            circle_marker_49a437d7869748efb0aec8fb5daa020c.bindPopup(popup_a289572cd2d04140930117584319a882);
+
+            
+        
+    
+            var circle_marker_1a322223e6fc45c7b47882da647831fa = L.circleMarker(
+                [40.83,-73.94],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_2e59cea955114e1f8ce1e2ad1e027e4a = L.popup({maxWidth: '300'});
+
+            
+                var html_f77341c1516d43a28863f89c4f5b224f = $('<div id="html_f77341c1516d43a28863f89c4f5b224f" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_2e59cea955114e1f8ce1e2ad1e027e4a.setContent(html_f77341c1516d43a28863f89c4f5b224f);
+            
+
+            circle_marker_1a322223e6fc45c7b47882da647831fa.bindPopup(popup_2e59cea955114e1f8ce1e2ad1e027e4a);
+
+            
+        
+    
+            var circle_marker_b65cad68f13043c68004a544e6c9009d = L.circleMarker(
+                [40.86,-73.93],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_02ae4b07b32e4b91a5d1963d9cb5d134 = L.popup({maxWidth: '300'});
+
+            
+                var html_91a4204b9fbc4fe5987e3c7d8c2d3a09 = $('<div id="html_91a4204b9fbc4fe5987e3c7d8c2d3a09" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_02ae4b07b32e4b91a5d1963d9cb5d134.setContent(html_91a4204b9fbc4fe5987e3c7d8c2d3a09);
+            
+
+            circle_marker_b65cad68f13043c68004a544e6c9009d.bindPopup(popup_02ae4b07b32e4b91a5d1963d9cb5d134);
+
+            
+        
+    
+            var circle_marker_aaf687072b4f4a26a185e8685468c64e = L.circleMarker(
+                [40.77,-73.95],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_dc03ea529bc14377bcb5d1535dd1237a = L.popup({maxWidth: '300'});
+
+            
+                var html_7a9e6e3a655e477ea951ac32ea506e9e = $('<div id="html_7a9e6e3a655e477ea951ac32ea506e9e" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_dc03ea529bc14377bcb5d1535dd1237a.setContent(html_7a9e6e3a655e477ea951ac32ea506e9e);
+            
+
+            circle_marker_aaf687072b4f4a26a185e8685468c64e.bindPopup(popup_dc03ea529bc14377bcb5d1535dd1237a);
+
+            
+        
+    
+            var circle_marker_b8fd544a38b04c6f83493acc8610068f = L.circleMarker(
+                [40.765,-73.965],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_04488494736b44f891d81973500c44ea = L.popup({maxWidth: '300'});
+
+            
+                var html_754416abcdfe4818a71dfcdf3f66001f = $('<div id="html_754416abcdfe4818a71dfcdf3f66001f" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_04488494736b44f891d81973500c44ea.setContent(html_754416abcdfe4818a71dfcdf3f66001f);
+            
+
+            circle_marker_b8fd544a38b04c6f83493acc8610068f.bindPopup(popup_04488494736b44f891d81973500c44ea);
+
+            
+        
+    
+            var circle_marker_f25d3335b97e43e8b4d27bf2b5eb6663 = L.circleMarker(
+                [40.778,-73.988],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_696c37a88d524e01b31a9d58323e8018 = L.popup({maxWidth: '300'});
+
+            
+                var html_8307bb9233084740b800f3ab0dc9ed12 = $('<div id="html_8307bb9233084740b800f3ab0dc9ed12" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_696c37a88d524e01b31a9d58323e8018.setContent(html_8307bb9233084740b800f3ab0dc9ed12);
+            
+
+            circle_marker_f25d3335b97e43e8b4d27bf2b5eb6663.bindPopup(popup_696c37a88d524e01b31a9d58323e8018);
+
+            
+        
+    
+            var circle_marker_9375ea2a8e364c929ceddeaa618f53ee = L.circleMarker(
+                [40.77,-73.96],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_2b51bf81d6f44db3887538cfaacb1f63 = L.popup({maxWidth: '300'});
+
+            
+                var html_f25a1aefcc544c408af454b58bb46a8a = $('<div id="html_f25a1aefcc544c408af454b58bb46a8a" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_2b51bf81d6f44db3887538cfaacb1f63.setContent(html_f25a1aefcc544c408af454b58bb46a8a);
+            
+
+            circle_marker_9375ea2a8e364c929ceddeaa618f53ee.bindPopup(popup_2b51bf81d6f44db3887538cfaacb1f63);
+
+            
+        
+    
+            var circle_marker_620522c46e2844a4bfe616ef93935523 = L.circleMarker(
+                [40.761,-73.978],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_3365979ff3a14c09acdd9efef9338ba1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6445e07e77d4928b0a7a773b0400f0c = $('<div id="html_c6445e07e77d4928b0a7a773b0400f0c" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_3365979ff3a14c09acdd9efef9338ba1.setContent(html_c6445e07e77d4928b0a7a773b0400f0c);
+            
+
+            circle_marker_620522c46e2844a4bfe616ef93935523.bindPopup(popup_3365979ff3a14c09acdd9efef9338ba1);
+
+            
+        
+    
+            var circle_marker_20f8e285fc454bfb84142c649f71efe4 = L.circleMarker(
+                [40.7539,-73.9807],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_3e1f1254a6a2433492aed6a74e665e68 = L.popup({maxWidth: '300'});
+
+            
+                var html_1d26500e3d5941349143349f162177b6 = $('<div id="html_1d26500e3d5941349143349f162177b6" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_3e1f1254a6a2433492aed6a74e665e68.setContent(html_1d26500e3d5941349143349f162177b6);
+            
+
+            circle_marker_20f8e285fc454bfb84142c649f71efe4.bindPopup(popup_3e1f1254a6a2433492aed6a74e665e68);
+
+            
+        
+    
+            var circle_marker_6d8596ce7edb4d5fa1b8097154fffc50 = L.circleMarker(
+                [40.7591,-73.9776],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_548324a2847740ec9d6edc062e9e5627 = L.popup({maxWidth: '300'});
+
+            
+                var html_11a2caa0d2424c3c89b61a4f532f115c = $('<div id="html_11a2caa0d2424c3c89b61a4f532f115c" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_548324a2847740ec9d6edc062e9e5627.setContent(html_11a2caa0d2424c3c89b61a4f532f115c);
+            
+
+            circle_marker_6d8596ce7edb4d5fa1b8097154fffc50.bindPopup(popup_548324a2847740ec9d6edc062e9e5627);
+
+            
+        
+    
+            var circle_marker_b3f654694a4745df80c984512cd2afc3 = L.circleMarker(
+                [40.759,-73.98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_3858b3c35ce14da991034d48bd6a9a7f = L.popup({maxWidth: '300'});
+
+            
+                var html_1036e9612c934748afe6119eda3fcdd6 = $('<div id="html_1036e9612c934748afe6119eda3fcdd6" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_3858b3c35ce14da991034d48bd6a9a7f.setContent(html_1036e9612c934748afe6119eda3fcdd6);
+            
+
+            circle_marker_b3f654694a4745df80c984512cd2afc3.bindPopup(popup_3858b3c35ce14da991034d48bd6a9a7f);
+
+            
+        
+    
+            var circle_marker_dba340e8f7bb49a480fb9b18016e55f6 = L.circleMarker(
+                [40.8108,-73.9637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_9bd4c18c8a9a433fbee1bd9b9762826e = L.popup({maxWidth: '300'});
+
+            
+                var html_222ddb85ec6c4525abe0f138c26e7895 = $('<div id="html_222ddb85ec6c4525abe0f138c26e7895" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_9bd4c18c8a9a433fbee1bd9b9762826e.setContent(html_222ddb85ec6c4525abe0f138c26e7895);
+            
+
+            circle_marker_dba340e8f7bb49a480fb9b18016e55f6.bindPopup(popup_9bd4c18c8a9a433fbee1bd9b9762826e);
+
+            
+        
+    
+            var circle_marker_d238cba72de04363ab194a33a8bc6b0e = L.circleMarker(
+                [40.751,-73.992],
+                {
+  "bubblingMouseEvents": true,
+  "color": "",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_04654df612a5495b8b363a8327dbd5c9);
+            
+    
+            var popup_09d1d056816945f9bb5cdc6715767707 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e4e968079c74d2491500421564e18d7 = $('<div id="html_3e4e968079c74d2491500421564e18d7" style="width: 100.0%; height: 100.0%;">New York</div>')[0];
+                popup_09d1d056816945f9bb5cdc6715767707.setContent(html_3e4e968079c74d2491500421564e18d7);
+            
+
+            circle_marker_d238cba72de04363ab194a33a8bc6b0e.bindPopup(popup_09d1d056816945f9bb5cdc6715767707);
+
+            
+        
+</script>
